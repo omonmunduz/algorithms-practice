@@ -1,3 +1,5 @@
+//Array lists are optimized for lookups but de-optimized for insertions and deletions.
+// On the other hand linked lists are optimized for insertions and deletions but not optimized for lookups
 class ArrayList {
     constructor(){
         this.length = 0;
